@@ -1,0 +1,34 @@
+\begin{theindex}
+
+  \item {/home/raz0ntex/\+Desktop/slk/src/kernel.\+c}, 3
+  \item {/home/raz0ntex/\+Desktop/slk/src/libk/includes/stdint.\+h}, 6
+
+  \indexspace
+
+  \item {kernel.\+c}
+    \subitem {terminal\+\_\+initialize}, 5
+    \subitem {terminal\+\_\+putchar}, 5
+    \subitem {terminal\+\_\+putentryat}, 5
+    \subitem {terminal\+\_\+setcolor}, 6
+    \subitem {terminal\+\_\+write}, 6
+    \subitem {vga\+\_\+color}, 4
+
+  \indexspace
+
+  \item {terminal\+\_\+initialize}
+    \subitem {kernel.\+c}, 5
+  \item {terminal\+\_\+putchar}
+    \subitem {kernel.\+c}, 5
+  \item {terminal\+\_\+putentryat}
+    \subitem {kernel.\+c}, 5
+  \item {terminal\+\_\+setcolor}
+    \subitem {kernel.\+c}, 6
+  \item {terminal\+\_\+write}
+    \subitem {kernel.\+c}, 6
+
+  \indexspace
+
+  \item {vga\+\_\+color}
+    \subitem {kernel.\+c}, 4
+
+\end{theindex}

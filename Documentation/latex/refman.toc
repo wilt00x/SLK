@@ -1,0 +1,16 @@
+\contentsline {chapter}{\numberline {1}File Index}{1}
+\contentsline {section}{\numberline {1.1}File List}{1}
+\contentsline {chapter}{\numberline {2}File Documentation}{3}
+\contentsline {section}{\numberline {2.1}/home/raz0ntex/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Desktop/slk/src/kernel.c File Reference}{3}
+\contentsline {subsection}{\numberline {2.1.1}Detailed Description}{4}
+\contentsline {subsection}{\numberline {2.1.2}Enumeration Type Documentation}{4}
+\contentsline {subsubsection}{\numberline {2.1.2.1}vga\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}color}{5}
+\contentsline {subsection}{\numberline {2.1.3}Function Documentation}{5}
+\contentsline {subsubsection}{\numberline {2.1.3.1}terminal\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}initialize()}{5}
+\contentsline {subsubsection}{\numberline {2.1.3.2}terminal\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}putchar()}{5}
+\contentsline {subsubsection}{\numberline {2.1.3.3}terminal\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}putentryat()}{5}
+\contentsline {subsubsection}{\numberline {2.1.3.4}terminal\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}setcolor()}{6}
+\contentsline {subsubsection}{\numberline {2.1.3.5}terminal\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}write()}{6}
+\contentsline {section}{\numberline {2.2}/home/raz0ntex/\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Desktop/slk/src/libk/includes/stdint.h File Reference}{6}
+\contentsline {subsection}{\numberline {2.2.1}Detailed Description}{8}
+\contentsline {chapter}{Index}{9}

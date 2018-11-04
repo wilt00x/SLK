@@ -1,0 +1,190 @@
+\section{/home/raz0ntex/\+Desktop/slk/src/kernel.c File Reference}
+\label{kernel_8c}\index{/home/raz0ntex/\+Desktop/slk/src/kernel.\+c@{/home/raz0ntex/\+Desktop/slk/src/kernel.\+c}}
+
+
+Kernel\textquotesingle{}s main file.  
+
+
+{\ttfamily \#include \char`\"{}libk/includes/stdint.\+h\char`\"{}}\newline
+Include dependency graph for kernel.\+c\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=204pt]{kernel_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \textbf{ vga\+\_\+color} \{ \newline
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+B\+L\+A\+CK} = 0, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+B\+L\+UE} = 1, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+G\+R\+E\+EN} = 2, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+C\+Y\+AN} = 3, 
+\newline
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+R\+ED} = 4, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+M\+A\+G\+E\+N\+TA} = 5, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+B\+R\+O\+WN} = 6, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+G\+R\+EY} = 7, 
+\newline
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+D\+A\+R\+K\+\_\+\+G\+R\+EY} = 8, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+B\+L\+UE} = 9, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+G\+R\+E\+EN} = 10, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+C\+Y\+AN} = 11, 
+\newline
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+R\+ED} = 12, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+M\+A\+G\+E\+N\+TA} = 13, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+L\+I\+G\+H\+T\+\_\+\+B\+R\+O\+WN} = 14, 
+{\bfseries V\+G\+A\+\_\+\+C\+O\+L\+O\+R\+\_\+\+W\+H\+I\+TE} = 15
+ \}\begin{DoxyCompactList}\small\item\em Define hardware text mode for console. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{kernel_8c_ab8ff83f1c6edb3ab0e2119686167dcef}} 
+\textbf{ uint16\+\_\+t} \textbf{ strlen} (const char $\ast$str)
+\begin{DoxyCompactList}\small\item\em Give the length of str. \end{DoxyCompactList}\item 
+void \textbf{ terminal\+\_\+initialize} (void)
+\begin{DoxyCompactList}\small\item\em Initialize terminal. \end{DoxyCompactList}\item 
+void \textbf{ terminal\+\_\+setcolor} (\textbf{ uint8\+\_\+t} color)
+\begin{DoxyCompactList}\small\item\em Set the terminal color. \end{DoxyCompactList}\item 
+void \textbf{ terminal\+\_\+putentryat} (char c, \textbf{ uint8\+\_\+t} color, \textbf{ uint16\+\_\+t} x, \textbf{ uint16\+\_\+t} y)
+\begin{DoxyCompactList}\small\item\em Write char at an entry of V\+GA buffer. \end{DoxyCompactList}\item 
+void \textbf{ terminal\+\_\+putchar} (char c)
+\begin{DoxyCompactList}\small\item\em Write a char without specifying its dimension and color. \end{DoxyCompactList}\item 
+void \textbf{ terminal\+\_\+write} (const char $\ast$data, \textbf{ uint16\+\_\+t} size)
+\begin{DoxyCompactList}\small\item\em Write a string. \end{DoxyCompactList}\item 
+\mbox{\label{kernel_8c_a09ed5506d8ae907e2c8e0c96f6d1a928}} 
+void \textbf{ terminal\+\_\+writestring} (const char $\ast$data)
+\begin{DoxyCompactList}\small\item\em Write a string. \end{DoxyCompactList}\item 
+\mbox{\label{kernel_8c_a6b8fb674fb359f6ae53dc9c4fb7fc6be}} 
+void {\bfseries kernel\+\_\+main} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\label{kernel_8c_a8bb65c78998dc43716e51c11a38e23d6}} 
+\textbf{ uint8\+\_\+t} {\bfseries terminal\+\_\+row}
+\item 
+\mbox{\label{kernel_8c_adfadf4bb39940ae59774731f41520ff8}} 
+\textbf{ uint8\+\_\+t} {\bfseries terminal\+\_\+column}
+\item 
+\mbox{\label{kernel_8c_a0165452ad102b2a781847d6616407976}} 
+\textbf{ uint8\+\_\+t} {\bfseries terminal\+\_\+color}
+\item 
+\mbox{\label{kernel_8c_a47e72657e89c79ddc7393b941112a28e}} 
+\textbf{ uint16\+\_\+t} $\ast$ {\bfseries terminal\+\_\+buffer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Kernel\textquotesingle{}s main file. 
+
+\begin{DoxyAuthor}{Author}
+wil.\+tor
+\end{DoxyAuthor}
+ \begin{DoxyDate}{Date}
+31/10/2018
+\end{DoxyDate}
+\begin{DoxyVersion}{Version}
+1.\+0
+\end{DoxyVersion}
+Write in V\+GA\textquotesingle{}s buffer. 
+
+\subsection{Enumeration Type Documentation}
+\mbox{\label{kernel_8c_abaae057bae62d0c3e11501e3199cb60e}} 
+\index{kernel.\+c@{kernel.\+c}!vga\+\_\+color@{vga\+\_\+color}}
+\index{vga\+\_\+color@{vga\+\_\+color}!kernel.\+c@{kernel.\+c}}
+\subsubsection{vga\+\_\+color}
+{\footnotesize\ttfamily enum \textbf{ vga\+\_\+color}}
+
+
+
+Define hardware text mode for console. 
+
+Define programmable 16 color palette of V\+GA text mode. 
+
+\subsection{Function Documentation}
+\mbox{\label{kernel_8c_ac4802010a838e2e4909fe47fc7edbe3e}} 
+\index{kernel.\+c@{kernel.\+c}!terminal\+\_\+initialize@{terminal\+\_\+initialize}}
+\index{terminal\+\_\+initialize@{terminal\+\_\+initialize}!kernel.\+c@{kernel.\+c}}
+\subsubsection{terminal\+\_\+initialize()}
+{\footnotesize\ttfamily void terminal\+\_\+initialize (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+
+
+Initialize terminal. 
+
+Initialize the properties of termine by accessing the vga buffer at the 0x\+B8000 address with a size for 80x25 characters. \mbox{\label{kernel_8c_a0e77ef8710654966af44f69becffcd80}} 
+\index{kernel.\+c@{kernel.\+c}!terminal\+\_\+putchar@{terminal\+\_\+putchar}}
+\index{terminal\+\_\+putchar@{terminal\+\_\+putchar}!kernel.\+c@{kernel.\+c}}
+\subsubsection{terminal\+\_\+putchar()}
+{\footnotesize\ttfamily void terminal\+\_\+putchar (\begin{DoxyParamCaption}\item[{char}]{c }\end{DoxyParamCaption})}
+
+
+
+Write a char without specifying its dimension and color. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The char to write in V\+GA buffer. \\
+\hline
+\end{DoxyParams}
+\mbox{\label{kernel_8c_a6df85b4463bee56146ea4e16c13d6708}} 
+\index{kernel.\+c@{kernel.\+c}!terminal\+\_\+putentryat@{terminal\+\_\+putentryat}}
+\index{terminal\+\_\+putentryat@{terminal\+\_\+putentryat}!kernel.\+c@{kernel.\+c}}
+\subsubsection{terminal\+\_\+putentryat()}
+{\footnotesize\ttfamily void terminal\+\_\+putentryat (\begin{DoxyParamCaption}\item[{char}]{c,  }\item[{\textbf{ uint8\+\_\+t}}]{color,  }\item[{\textbf{ uint16\+\_\+t}}]{x,  }\item[{\textbf{ uint16\+\_\+t}}]{y }\end{DoxyParamCaption})}
+
+
+
+Write char at an entry of V\+GA buffer. 
+
+Write char by specifying its dimensions and its color.
+
+
+\begin{DoxyParams}{Parameters}
+{\em c} & The char to push.\\
+\hline
+{\em color} & The color to set at char c.\\
+\hline
+{\em x} & The width of char c.\\
+\hline
+{\em y} & The height of char c. \\
+\hline
+\end{DoxyParams}
+\mbox{\label{kernel_8c_a1d0c38c1fb48053bea2c7f60cbd3ccb9}} 
+\index{kernel.\+c@{kernel.\+c}!terminal\+\_\+setcolor@{terminal\+\_\+setcolor}}
+\index{terminal\+\_\+setcolor@{terminal\+\_\+setcolor}!kernel.\+c@{kernel.\+c}}
+\subsubsection{terminal\+\_\+setcolor()}
+{\footnotesize\ttfamily void terminal\+\_\+setcolor (\begin{DoxyParamCaption}\item[{\textbf{ uint8\+\_\+t}}]{color }\end{DoxyParamCaption})}
+
+
+
+Set the terminal color. 
+
+  
+\begin{DoxyParams}{Parameters}
+{\em color} & The color to set at terminal. \\
+\hline
+\end{DoxyParams}
+\mbox{\label{kernel_8c_a6844c7f6acece37baec90ab8da52d0c4}} 
+\index{kernel.\+c@{kernel.\+c}!terminal\+\_\+write@{terminal\+\_\+write}}
+\index{terminal\+\_\+write@{terminal\+\_\+write}!kernel.\+c@{kernel.\+c}}
+\subsubsection{terminal\+\_\+write()}
+{\footnotesize\ttfamily void terminal\+\_\+write (\begin{DoxyParamCaption}\item[{const char $\ast$}]{data,  }\item[{\textbf{ uint16\+\_\+t}}]{size }\end{DoxyParamCaption})}
+
+
+
+Write a string. 
+
+Write the first \textquotesingle{}size\textquotesingle{} bytes of the strings \textquotesingle{}data\textquotesingle{}.
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The string to write.\\
+\hline
+{\em size} & The number of bytes of \textquotesingle{}data\textquotesingle{} string to be written. \\
+\hline
+\end{DoxyParams}

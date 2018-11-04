@@ -1,0 +1,14 @@
+\indexentry{/home/raz0ntex/\+Desktop/slk/src/kernel.\+c@{/home/raz0ntex/\+Desktop/slk/src/kernel.\+c}}{3}
+\indexentry{kernel.\+c@{kernel.\+c}!vga\+\_\+color@{vga\+\_\+color}}{4}
+\indexentry{vga\+\_\+color@{vga\+\_\+color}!kernel.\+c@{kernel.\+c}}{4}
+\indexentry{kernel.\+c@{kernel.\+c}!terminal\+\_\+initialize@{terminal\+\_\+initialize}}{5}
+\indexentry{terminal\+\_\+initialize@{terminal\+\_\+initialize}!kernel.\+c@{kernel.\+c}}{5}
+\indexentry{kernel.\+c@{kernel.\+c}!terminal\+\_\+putchar@{terminal\+\_\+putchar}}{5}
+\indexentry{terminal\+\_\+putchar@{terminal\+\_\+putchar}!kernel.\+c@{kernel.\+c}}{5}
+\indexentry{kernel.\+c@{kernel.\+c}!terminal\+\_\+putentryat@{terminal\+\_\+putentryat}}{5}
+\indexentry{terminal\+\_\+putentryat@{terminal\+\_\+putentryat}!kernel.\+c@{kernel.\+c}}{5}
+\indexentry{kernel.\+c@{kernel.\+c}!terminal\+\_\+setcolor@{terminal\+\_\+setcolor}}{6}
+\indexentry{terminal\+\_\+setcolor@{terminal\+\_\+setcolor}!kernel.\+c@{kernel.\+c}}{6}
+\indexentry{kernel.\+c@{kernel.\+c}!terminal\+\_\+write@{terminal\+\_\+write}}{6}
+\indexentry{terminal\+\_\+write@{terminal\+\_\+write}!kernel.\+c@{kernel.\+c}}{6}
+\indexentry{/home/raz0ntex/\+Desktop/slk/src/libk/includes/stdint.\+h@{/home/raz0ntex/\+Desktop/slk/src/libk/includes/stdint.\+h}}{6}
